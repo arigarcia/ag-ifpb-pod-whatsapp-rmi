@@ -1,0 +1,75 @@
+/*Sobrescrevendo o bootstrap*/
+
+.popover {
+	position: relative;
+	display: block;
+	overflow: visible;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.app-header{
+	background:#333333; 
+	color: #efefef; 
+	height: 70px; 
+	padding-top: 10px; 
+	font-family: Helvetica;
+}
+
+.app-content{
+	min-height: 400px;
+	padding: 10px;
+	background: #f8f8f8
+}
+
+.app-content .hello{
+	width: 800px;
+	margin: 0px auto;
+}
+
+.app-content .error{
+  width: 800px;
+  margin: 0px auto;
+}
+
+.app-content .home{
+  width: 800px;
+  margin: 0px auto;
+  overflow: hidden;
+  height: auto;
+}
+
+.app-content .register-person{
+  width: 800px;
+  margin: 0px auto;
+}
+
+.app-content .list-page{
+  width: 800px;
+  margin: 0px auto;
+}
+
+.app-content .list-page ul li{
+  list-style: none;
+  padding: 5px 5px;
+  color: #837465;
+  background:#efefef; 
+}
