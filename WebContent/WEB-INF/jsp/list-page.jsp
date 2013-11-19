@@ -5,7 +5,12 @@
   <h2>Lista de Usuários Ativos</h2>
 	<ul>
 	<c:forEach items="${ps}" var="person">
-	   <li>${person.name}</li>
+	   <li> 
+	     <div>
+	       <div><b>Nome</b> : ${person.name}</div>
+	       <div><b>Email</b>: ${person.email}</div>
+	     </div> 
+	   </li>
 	</c:forEach>
 	</ul>
 </div>

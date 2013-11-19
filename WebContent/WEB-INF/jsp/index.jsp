@@ -15,10 +15,11 @@
 <body>
   <!-- Header -->
   <div class="app-header row">
-    <h1 class="span5 offset2">IFPB POD Application</h1>
-    <nav class="span5 pull-right">
+    <h1 class="span6 ">IFPB POD Application</h1>
+    <nav class="span6 pull-right">
       <ul class="nav nav-pills">
         <li><a href="index.jhtml">home</a></li>
+        <li><a href="index.jhtml?p=login-page">login</a></li>
         <li><a href="index.jhtml?p=register-page">cadastro de usuários</a></li>
         <li><a href="index.jhtml?p=list-page">lista de usuários</a></li>
       </ul>

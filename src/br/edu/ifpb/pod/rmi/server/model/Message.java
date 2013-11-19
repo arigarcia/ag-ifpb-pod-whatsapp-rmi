@@ -2,6 +2,7 @@ package br.edu.ifpb.pod.rmi.server.model;
 
 import java.io.Serializable;
 
+@SuppressWarnings("serial")
 public class Message implements Serializable {
 	String text;
 	Person to;

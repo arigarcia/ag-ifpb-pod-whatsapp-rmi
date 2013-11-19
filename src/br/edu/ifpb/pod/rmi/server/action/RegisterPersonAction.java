@@ -13,9 +13,13 @@ public class RegisterPersonAction implements Action {
 	public String execute(HttpServletRequest req) {
 		//receber dados
 		String name = req.getParameter("personName");
+		String email = req.getParameter("personEmail");
+		String password = req.getParameter("personPassword");
 		//registry
 		Person person = new Person();
 		person.setName(name);
+		person.setEmail(email);
+		person.setPassword(password);
 		repository.registry(person);
 		//
 		req.setAttribute("ps", repository.list());
